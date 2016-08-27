@@ -189,7 +189,7 @@ Finance.prototype.PMT = function(fractionalRate, numOfPayments, principal) {
 
 // IAR calculates the Inflation-adjusted return
 Finance.prototype.IAR = function(investmentReturn, inflationRate){
-  return 100 * (((1 + investmentReturn) / (1 + inflationRate)) - 1);
+  return 100 * (((1 + (investmentReturn/100)) / (1 + (inflationRate/100))) - 1);
 }
 
 // XIRR - IRR for irregular intervals

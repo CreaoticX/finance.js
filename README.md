@@ -250,7 +250,7 @@ Finance.js
   <p>Measure the return taking into account the time period's inflation rate</p>
 
  <pre><code>
-   finance.IAR(0.08, 0.03)
+   finance.IAR(8, 3)
  => 4.85</code></pre>
 
 ### Contributing
